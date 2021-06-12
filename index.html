@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Bäst i Test</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="image-wrapper" onClick="openLetter()">
+        <img id="img" src="images/Letter.png" alt="image of letter" />
+      </div>
+
+      <div id="popup" class="hide">
+        <h3>Test #1: SAKER I RAD</h3>
+        <p>
+          Alla ska hitta en sak som börjar på samma bokstav som sitt eget
+          förnamn. När ni kommer till festen ska ni i era lag (som tilldelas på
+          midsommar) lägga sakerna i en rad i bokstavsordning. Varje sak i raden
+          måste nudda nästa, som måste nudda nästa och så vidare. Längst rad
+          vinner.
+        </p>
+        <br />
+        <p>
+          Ni kommer att ha cirka 5 minuter på er. Er tid börjar när någon på
+          festen plötsligt ropar "Nu kör vi!", och slutar när er Testledare
+          ropar "Tíminn er búinn" (vilket betyder "Tiden är ute" på isländska).
+        </p>
+        <div class="button-div">
+          <button onClick="closeLetter()">Stäng</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
