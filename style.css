@@ -105,3 +105,29 @@ button:hover {
     margin-top: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    min-height: 100vh;
+  }
+
+  #popup {
+    width: 90vw;
+    max-height: 90vh;
+    padding: 1.7rem;
+  }
+
+  #popup h3 {
+    font-size: 1.2rem;
+    margin: 0 0 0.7rem 0;
+  }
+
+  #popup p {
+    font-size: 0.9rem;
+  }
+
+  .button-div {
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+}
