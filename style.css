@@ -106,11 +106,7 @@ button:hover {
   }
 }
 
-@media (max-width: 768px) {
-  .wrapper {
-    min-height: 100vh;
-  }
-
+@media (max-width: 320px) {
   #popup {
     width: 90vw;
     max-height: 90vh;
